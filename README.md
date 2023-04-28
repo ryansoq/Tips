@@ -20,7 +20,7 @@ echo "service ssh status" >> ssh_auto_start.sh
 
 chmod 755 ~/ssh_auto_start.sh
 
-echo "~/ssh_auto_start.sh" /root/.bashrc
+echo "~/ssh_auto_start.sh" >> /root/.bashrc
 
 passwd
 ```
