@@ -24,3 +24,9 @@ echo "~/ssh_auto_start.sh" >> /root/.bashrc
 
 passwd
 ```
+
+# add ssh key
+```bash=
+ssh-keygen -t rsa -b 4096 -C "ryansoq@gmail.com"
+cat /root/.ssh/id_rsa.pub
+```
