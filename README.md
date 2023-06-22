@@ -24,6 +24,8 @@ echo "~/ssh_auto_start.sh" >> /root/.bashrc
 
 passwd
 ```
+# ssh connection
+ssh root@127.0.0.1 -p 50022
 
 # add ssh key
 ```bash=
