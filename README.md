@@ -32,3 +32,12 @@ ssh root@127.0.0.1 -p 50022
 ssh-keygen -t rsa -b 4096 -C "ryansoq@gmail.com"
 cat /root/.ssh/id_rsa.pub
 ```
+
+## clang format
+```bash=
+if clang-format --version &> /dev/null
+then
+   clang-format -style=WebKit main.cc > temp && cat temp > main.cc && rm temp
+   clang-format -style=WebKit example.cc > temp && cat temp > example.cc && rm temp
+fi
+```
