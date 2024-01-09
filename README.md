@@ -37,7 +37,7 @@ cat /root/.ssh/id_rsa.pub
 ```bash=
 if clang-format --version &> /dev/null
 then
-   clang-format -style=WebKit main.cc > temp && cat temp > main.cc && rm temp
-   clang-format -style=WebKit example.cc > temp && cat temp > example.cc && rm temp
+   clang-format -style=WebKit -i main.cc
+   clang-format -style=WebKit -i example.cc
 fi
 ```
