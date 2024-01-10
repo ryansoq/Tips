@@ -44,4 +44,5 @@ then
    clang-format -style=WebKit -i main.cc
    clang-format -style=WebKit -i example.cc
 fi
+// clang-format -style=file -i activations.h
 ```
