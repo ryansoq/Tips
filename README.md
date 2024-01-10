@@ -1,4 +1,7 @@
-# ssh2docker
+# Tips
+Here are some tips and notes on programming.
+
+## ssh2docker
 
 ```bash=
 docker pull ubuntu:latest
@@ -24,10 +27,11 @@ echo "~/ssh_auto_start.sh" >> /root/.bashrc
 
 passwd
 ```
-# ssh connection
+
+## ssh connection
 ssh root@127.0.0.1 -p 50022
 
-# add ssh key
+## add ssh key
 ```bash=
 ssh-keygen -t rsa -b 4096 -C "ryansoq@gmail.com"
 cat /root/.ssh/id_rsa.pub
