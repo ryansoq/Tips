@@ -30,7 +30,11 @@ passwd
 
 ## ssh connection
 ssh root@127.0.0.1 -p 50022
+- Other target 
 
+ipconfig # use this command e.g. 192.168.1.xxx
+
+ssh -p 50022 root@192.168.1.xxx
 ## add ssh key
 ```bash=
 ssh-keygen -t rsa -b 4096 -C "ryansoq@gmail.com"
