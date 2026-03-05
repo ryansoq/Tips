@@ -1,6 +1,11 @@
 # Tips
 Here are some tips and notes on programming.
 
+## TCR script
+```bash=
+(測試命令) && (git add . && git commit -m "TCR: working") || (git reset --hard)
+```
+
 ## ssh2docker
 
 ```bash=
