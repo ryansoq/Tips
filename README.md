@@ -1,6 +1,11 @@
 # Tips
 Here are some tips and notes on programming.
 
+## zellij
+Method 1： Install zellij using snap on Ubuntu
+```bash=
+sudo snap install zellij --classic
+```
 ## TCR script
 ```bash=
 (測試命令) && (git add . && git commit -m "TCR: working") || (git reset --hard)
